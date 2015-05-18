@@ -34,8 +34,10 @@ This website is a live example generated from Kalei's style.css
 Install quickly and easily with the [rails gem](https://github.com/andrewhavens/kalei-ruby-gem)
 
 ## Example
-
 Easily show off examples of your components and the HTML to generate them
+```
+<div class="greenmachine">Green Machine</div>
+```
 
 ```
 <div class="actions button-container">
@@ -122,6 +124,7 @@ Public domain: http://unlicense.org/
 /* ### Examples ### */
 @import url("buttons.css");
 @import url("fixie-demo.css");
+@import url("lightspeed.css");
 
 /* ### Third Party ### */
 @import url("highlight/styles/googlecode.css");

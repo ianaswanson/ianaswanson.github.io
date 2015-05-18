@@ -1,0 +1,45 @@
+/*
+# LS Style Guide
+## This is a living style guide for Lightspeed Systems corporate branding.
+
+
+
+## Getting started
+
+1. Browse the css on the sides to see what styles are available
+
+## Main goals and benefits
+
+* Fully documented CSS - No need to explain the benefits
+* No dependencies, simply download the repository and run in your browser
+* Automatic generation of demo UI components
+* Easy access for anyone, designer, developer, manager and users
+* Rapid development of projects by allowing developers to find the correct CSS and HTML for any given UI component
+* Open sourced so that all great ideas can be included
+
+
+
+## Author
+
+Ian Swanson
+Gabe Trout
+
+## Contributors
+
+Amy Bennett
+
+
+/* ### Lightspeed theme ### */
+@import url("ls-community.css");
+
+
+/* ### Third Party ### */
+@import url("highlight/styles/googlecode.css");
+@import url("bootstrap.css");
+
+
+.header1 {
+	font-weight: 400;
+	font-style: normal;
+	font-size: 3em;
+}
