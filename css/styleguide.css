@@ -33,10 +33,9 @@ Amy Bennett
 */
 /* ### Lightspeed theme ### */
 @import url("headers.css");
-@import url("ls-community.css");
-@import url("lsboot.css");
-
+@import url("buttons.css");
 
 /* ### Third Party ### */
 @import url("highlight/styles/googlecode.css");
 @import url("bootstrap.css");
+@import url("bootflat/css/bootflat.css");
