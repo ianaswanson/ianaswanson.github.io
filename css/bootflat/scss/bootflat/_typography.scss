@@ -55,7 +55,7 @@ $image-radius:               4px !default;
   .h5,
   .h6 {
     font-family: inherit;
-    line-height: 1.3;
+    line-height: 1.45em;
     color: inherit;
   }
   h1 small,
@@ -89,9 +89,9 @@ $image-radius:               4px !default;
   }
   h1,
   .h1 {
-  font-family: "adelle-sans",sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 300;
+  font-size: 3rem;
   }
   h2,
   .h2 {
@@ -112,6 +112,10 @@ $image-radius:               4px !default;
   h6,
   .h6 {
     font-size: 14px;
+  }
+
+  p {
+    font-size: 1rem;
   }
   blockquote {
     border-left: 3px solid $blockquote-border-color;
