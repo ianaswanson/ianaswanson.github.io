@@ -269,29 +269,46 @@ a:visited:before {
 }
 
 .resources {
-	background-color: #70d2cf;
+	background-color: #70d2cf !important;
 }
 
 .news {
-	background-color: #9BFFB5;
+	background-color: #9BFFB5 !important;
 }
 
 .careers {
-	background-color: #FFB1AA;
+	background-color: #FFB1AA !important;
 }
 
 .events {
-	background-color: #ffb357;
+	background-color: #ffb357 !important;
 }
 
 .features {
-	background-color: #FFDAEE;
+	background-color: #FFDAEE !important;
 }
 
 .landing {
-	background-color: #D9BBA0;
+	background-color: #D9BBA0 !important;
 }
 
 .forms {
-	background-color: #FFE3DA;
+	background-color: #FFE3DA !important;
+}
+
+figcaption {
+	font-size: 12px;
+	text-decoration: underline;
+	
+}
+
+.links {
+ background-color:#00afd7;
+ filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#00afd7, endColorstr=#fff);
+ background-image:-moz-linear-gradient(left, #00afd7 0%, #fff 20%);
+ background-image:-webkit-linear-gradient(left, #00afd7 0%, #fff 20%);
+ background-image:-ms-linear-gradient(left, #00afd7 0%, #fff 20%);
+ background-image:linear-gradient(left, #00afd7 0%, #fff 20%);
+ background-image:-o-linear-gradient(left, #00afd7 0%, #fff 20%);
+ background-image:-webkit-gradient(linear, left bottom, right bottom, color-stop(0%,#00afd7), color-stop(20%,#fff));
 }
